@@ -31,7 +31,7 @@ export async function fetchQuotes(): Promise<ParseDataReturn> {
   // Well it did stop haha.
 
   const response = await axios.get(
-    'https://github.com/skolakoda/programming-quotes-api/raw/master/Data/quotes.json'
+    'https://raw.githubusercontent.com/mudroljub/programming-quotes-api/master/data/quotes.json'
   );
 
   const data = response.data;
